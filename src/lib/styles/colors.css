@@ -1,0 +1,54 @@
+/* Dark Theme Color Palette */
+:root {
+	/* Primary Colors - Deep Space Dark */
+	--color-bg-primary: #0a0e27;
+	--color-bg-secondary: #141829;
+	--color-bg-tertiary: #1a1f3a;
+
+	/* Text Colors */
+	--color-text-primary: #e8eef2;
+	--color-text-secondary: #a8b0bd;
+	--color-text-muted: #6b7280;
+
+	/* Accent Colors - Inspired by astronomy */
+	--color-accent-primary: #00d4ff; /* Cyan/Blue for astronomy */
+	--color-accent-secondary: #ff6b9d; /* Pink/Magenta for contrast */
+	--color-accent-tertiary: #ffc107; /* Gold/Yellow for highlights */
+
+	/* Utility Colors */
+	--color-border: #2a2f45;
+	--color-success: #10b981;
+	--color-warning: #f59e0b;
+	--color-error: #ef4444;
+
+	/* Spacing & Sizing */
+	--spacing-xs: 0.25rem;
+	--spacing-sm: 0.5rem;
+	--spacing-md: 1rem;
+	--spacing-lg: 1.5rem;
+	--spacing-xl: 2rem;
+	--spacing-2xl: 3rem;
+	--spacing-3xl: 4rem;
+
+	/* Typography */
+	--font-primary: 'Inter', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+	--font-mono: 'Monaco', 'Courier New', monospace;
+
+	/* Transitions */
+	--transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+	--transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+	--transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Light mode support if needed (optional) */
+@media (prefers-color-scheme: light) {
+	:root {
+		--color-bg-primary: #ffffff;
+		--color-bg-secondary: #f8f9fa;
+		--color-bg-tertiary: #f0f1f3;
+		--color-text-primary: #1a1d29;
+		--color-text-secondary: #4b5563;
+		--color-text-muted: #9ca3af;
+		--color-border: #e5e7eb;
+	}
+}
